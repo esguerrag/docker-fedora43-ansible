@@ -28,7 +28,7 @@ RUN dnf makecache \
     python3-libdnf5 \
   && dnf5 clean all
 
-# Install Ansible via Pip.
+# Install Ansible via UV.
 RUN uv pip install $pip_packages --system
 
 # Disable requiretty.
