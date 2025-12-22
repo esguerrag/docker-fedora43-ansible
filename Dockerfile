@@ -25,6 +25,7 @@ RUN dnf makecache \
     uv \
     sudo \
     which \
+    python3-rpm \
     python3-libdnf5 \
   && dnf5 clean all
 
